@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,40..300&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    --color-dark-cyan: #19A2AE;
+    --color-dark-blue: #2D3248;
+    --color-gray-blue: #6A6F81;
+    --color-dark-gray: #969696;
+    --font-family: "Kumbh Sans", sans-serif;
+}
+
+@layer components{
+    .social {
+        @apply text-lg font-bold text-dark-blue tracking-[0.54px]
+    }
+    .social-text {
+        @apply text-[10px] mt-1 tracking-[1.5px] text-gray-blue/70 mb-[26px];
+    }
+}
+
